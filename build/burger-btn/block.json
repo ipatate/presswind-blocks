@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "presswind-blocks/burger-btn",
+  "version": "0.1.0",
+  "title": "Button Burger",
+  "category": "theme",
+  "icon": "menu",
+  "description": "Button burger for header navigation from presswind",
+  "example": {},
+  "supports": {
+    "html": false,
+    "interactivity": true
+  },
+  "textdomain": "presswind-blocks",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "viewScriptModule": "file:./view.js"
+}
