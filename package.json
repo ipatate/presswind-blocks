@@ -1,6 +1,6 @@
 {
 	"name": "presswind-blocks",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Block for starter theme Presswind/Goodmotion.",
 	"author": "Faramaz Patrick <infos@goodmotion.fr",
 	"main": "build/index.js",
