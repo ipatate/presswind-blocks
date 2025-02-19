@@ -6,6 +6,7 @@ export default function Edit(props) {
 	const blockProps = useBlockProps({
 		className: "pw-site-navigation",
 	});
+
 	return (
 		<div {...blockProps}>
 			<InnerBlocks />
