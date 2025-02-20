@@ -5,7 +5,7 @@
 	"version": "0.1.0",
 	"title": "Lang Switcher work with Polylang only",
 	"category": "theme",
-	"icon": "i18n",
+	"icon": "translation",
 	"description": "Lang switcher from presswind",
 	"example": {},
 	"supports": {
