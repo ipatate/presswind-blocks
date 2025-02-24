@@ -20,6 +20,10 @@ if (! defined('ABSPATH')) {
 }
 
 
+require_once dirname(__FILE__) . '/src/carousel/render/carousel.php';
+require_once dirname(__FILE__) . '/src/carousel/variation.php';
+
+
 function create_block_presswindblocs_block_init()
 {
 	register_block_type(__DIR__ . '/build/burger-btn');
