@@ -37,12 +37,12 @@ add_filter(
 			$previous = $container->ownerDocument->createElement('button');
 			$previous->setAttribute('class', 'pw-carousel-post__prev');
 			$previous->setAttribute('type', 'button');
-			$previous->setAttribute('title', __('previous', '{domainname'));
+			$previous->setAttribute('title', __('previous', 'presswind-blocks'));
 
 			$next = $container->ownerDocument->createElement('button');
 			$next->setAttribute('class', 'pw-carousel-post__next');
 			$next->setAttribute('type', 'button');
-			$previous->setAttribute('title', __('next', '{domainname'));
+			$next->setAttribute('title', __('next', 'presswind-blocks'));
 
 			// add button
 			$button_container->appendChild($previous);
