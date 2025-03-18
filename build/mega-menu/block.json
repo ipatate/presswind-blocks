@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "presswind-blocks/mega-menu",
+  "version": "0.1.0",
+  "title": "Presswind Mega Menu",
+  "category": "theme",
+  "icon": "menu",
+  "description": "Presswind Mega Menu Block.",
+  "parent": [
+    "core/navigation"
+  ],
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "menuSlug": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false,
+    "interactivity": true,
+    "color": {
+      "background": true,
+      "text": true,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    }
+  },
+  "textdomain": "presswind-blocks",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php",
+  "viewScriptModule": "file:./view.js"
+}
