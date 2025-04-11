@@ -1,6 +1,6 @@
 <?php
 
-namespace GMTheme\Inc;
+namespace PresswindBlock;
 
 function get_xpath($string)
 {
