@@ -1,6 +1,6 @@
 <?php
 
-namespace GMTheme\Inc;
+namespace PresswindBlock;
 
 require_once dirname(__FILE__) . '/parser.php';
 
