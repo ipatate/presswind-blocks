@@ -10,7 +10,7 @@ wp_interactivity_state(
 );
 ?>
 
-<button data-wp-interactive="presswind-blocks/navigation" data-wp-class--pw-is-open="state.isOpen" class="pw-burger-btn" type="button" data-wp-bind--aria-label="state.ariaLabel" data-wp-on-async--click="actions.toggle">
+<button data-wp-interactive="presswind-blocks/navigation" data-wp-class--pw-is-open="state.isOpen" class="pw-burger-btn" type="button" data-wp-bind--aria-label="state.ariaLabel" data-wp-on--click="actions.toggle">
 	<span class="pw-burger"></span>
 	<span class="pw-burger"></span>
 	<span class="pw-burger"></span>

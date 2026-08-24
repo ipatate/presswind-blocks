@@ -9,14 +9,15 @@ add_filter(
 	function ($block_content, $block) {
 		// filter block
 		if ($block['blockName'] === 'core/query' && array_key_exists('namespace', $block['attrs']) && $block['attrs']['namespace'] === "presswind-blocks/carousel-post") {
-
 			[$xpath, $document] = get_xpath($block_content);
-
 			// main container
 			$container = $xpath->query("//div[contains(@class, 'pw-carousel-post')]")->item(0);
 
 			// list posts
 			$ul = $xpath->query('//ul')->item(0);
+			if (!$ul) {
+        return $block_content;
+      }
 			$li = $xpath->query('//li');
 
 			// create new wrapper

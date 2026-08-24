@@ -38,7 +38,7 @@ if ( ! $label || ! $menu_slug ) {
 	<?php echo $arrow_icon; ?>
 	<?php echo $plus_icon; ?>
 </button>
-<div data-wp-on-async--focusin="actions.handleMenuFocusin" class="wp-block-navigation__submenu-container wp-block-navigation-submenu wp-block-presswind-mega-menu__menu-container">
+<div data-wp-on--focusin="actions.handleMenuFocusin" class="wp-block-navigation__submenu-container wp-block-navigation-submenu wp-block-presswind-mega-menu__menu-container">
 	<?php echo block_template_part( $menu_slug ); ?>
 </div>
 <button
